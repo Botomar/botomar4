@@ -19,7 +19,7 @@
 </p>
 
 
-<h3 align="center">WHATSAPP BOT</h3>
+<h3 align="center">WHATSAPP BOt</h3>
 
 El bot de WhatsApp es un robot que responderá sus mensajes automáticamente, el bot de WhatsApp se conecta con la web de WhatsApp usando [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)
 
