@@ -57,8 +57,8 @@ La instalación es bastante simple, siga los pasos a continuación en la Aplicac
 • pkg install git
 • pkg install ffmpeg
 • pkg install nodejs
-• git clone https://github.com/FG98F/dylux-bot
-• cd dylux-bot
+• git clone https://github.com/omar/omarbot4
+• cd omarbot4
 • npm i
 • npm start
 ```
