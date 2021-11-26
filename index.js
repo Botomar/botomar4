@@ -444,7 +444,7 @@ switch (command) {
  
   case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *🤹OmarBot🤹  ┃ ᴮᴼᵀ*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -466,13 +466,13 @@ ${menu(prefix)}
 https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
 
 ▢ ${msg.gp} 2
-https://chat.whatsapp.com/CDUqNRu5Kh5KY5uqQI0BKE
+https://chat.whatsapp.com/CDUNRu5Kh5KY5uqQI0BKE
 
 ▢ ${msg.gp} 3
-https://chat.whatsapp.com/FSVDTytQxnTIPx8t8wBWeM
+https://chat.whatsapp.com/FVDTytQxnTIPx8t8wBWeM
 
 ▢ *YouTube*
-• https://www.youtube.com/fg98f
+• https://www.youtube.com/fg98
 `
 m.reply(gps)
 break 
@@ -502,7 +502,7 @@ case 'lang':
     if(!value) return m.reply(msg.Pbahasa)
     if (value.toLowerCase() === "es") {
       await addBahasa(sender, "es")
-      m.reply("✅ Idioma cambiado a Español ")
+      m.reply("✅ Idioma cambiado a Español😍 ")
     } else if (value.toLowerCase() === "id") {
       await addBahasa(sender, "id")
       m.reply("✅ Bahasa Indonesia terpilih\nSekarang bot akan membalas pesanmu dengan bahasa Indonesia")
@@ -518,11 +518,11 @@ case 'lang':
 case 'creator':
 case 'creador': 
 case 'developer':
-number = '59172945992@s.whatsapp.net'
+number = '51929480831@s.whatsapp.net'
     capt = `▢ ${msg.num} : @${number.split('@')[0]}\n\n`
     capt += '▢ Instagram : https://www.instagram.com/fg98._'
     await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/fg98._', mek)
-   /* Fg.sendContact(from, '59172945992', 'owner', {
+   /* Fg.sendContact(from, '51929480831', 'owner', {
 	 key: {
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
@@ -563,13 +563,13 @@ number = '59172945992@s.whatsapp.net'
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/59172945992 
+▢ Instagram : https://www.instagram.com/f98._
+▢ WhatsApp : wa.me/51929480831 
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
 ` 
-Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+Fg.send2Button(from, teks, '*_© 🤹OmarBot🤹_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
    
     case 'nameninja':
@@ -775,7 +775,7 @@ case "s":
  break 
 
   case 'man':
-    mann = ['hombre', 'man', 'joven guapo']
+    mann = ['hombre', 'man', 'joven guapo😜']
     push = pickRandom(mann)
     m.reply(msg.wait)
     go = await fgx.pinterest(push)
@@ -853,17 +853,17 @@ case "s":
    	  teks += `▢  ${v}\n`
 	  }
 	  teks += '└──────────────\n'
-	  teks += '┌─⊷ *VIDEO* \n'
+	  teks += '┌─⊷ *🤹VIDEO🤹* \n'
 	  for ( x of listvid) { 
    	  teks += `▢  ${x}\n`
 	  }
 	  teks += '└──────────────\n'
-	  teks += '┌─⊷ *AUDIO* \n'
+	  teks += '┌─⊷ *🤹AUDIO🤹* \n'
 	  for ( y of listaud) { 
    	  teks += `▢  ${y}\n`
 	  }
 	  teks += '└──────────────\n'
-	  teks += '┌─⊷ *STICKER* \n'
+	  teks += '┌─⊷ *🤹STICKER🤹* \n'
 	  for ( z of liststik) { 
    	  teks += `▢  ${z}\n`
 	  }
@@ -1031,7 +1031,7 @@ break
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── DyLux ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── 🤹OmarBot🤹 ┃ ᴮᴼᵀ ───'
 		    		 Fg.sendMessage(from, tbuff, image, {thumbnail:fakethumb , quoted: mek, caption: ytresult})
 		            break
    
